@@ -1,28 +1,3 @@
-// import 'package:flutter/material.dart';
-// import 'package:shopease/services/product_services.dart';
-
-// class ProductEditProvider extends ChangeNotifier {
-//   final ProductService _productService = ProductService();
-//   bool isLoading = false;
-
-//   Future<void> updateProduct(
-//       int id, String title, double price, String description) async {
-//     isLoading = true;
-//     notifyListeners();
-
-//     try {
-//       await _productService.updateProduct(id, title, price, description);
-//     } catch (e) {
-//       rethrow;
-//     } finally {
-//       isLoading = false;
-//       notifyListeners();
-//     }
-//   }
-// }
-
-
-// providers/product_edit_provider.dart
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;

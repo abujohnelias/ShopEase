@@ -1,5 +1,3 @@
-// screens/product_edit_screen.dart
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shopease/models/products_model.dart';
